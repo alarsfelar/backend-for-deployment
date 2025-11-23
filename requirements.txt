@@ -1,0 +1,60 @@
+# Core Framework
+fastapi
+uvicorn[standard]
+python-multipart==0.0.9
+
+# Database
+sqlalchemy
+asyncpg
+alembic
+psycopg2-binary
+
+# Redis & Caching
+redis==4.6.0
+hiredis
+
+# Authentication & Security
+python-jose[cryptography]
+bcrypt
+pydantic[email]
+
+# AWS S3
+boto3
+botocore
+
+# Background Tasks
+celery
+flower
+
+# Search
+elasticsearch
+
+# OCR & File Processing
+pytesseract
+Pillow
+pdf2image
+PyPDF2
+
+# Notifications
+twilio
+sendgrid
+
+# Monitoring & Logging
+sentry-sdk
+python-json-logger
+
+# Rate Limiting
+slowapi
+
+# Environment Variables
+python-dotenv
+
+# Testing
+pytest
+pytest-asyncio
+httpx
+
+# Code Quality
+black
+flake8
+mypy
